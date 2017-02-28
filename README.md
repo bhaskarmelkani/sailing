@@ -11,6 +11,7 @@ a [Sails](http://sailsjs.org) application
 * [Bootstrap Social Buttons](https://lipis.github.io/bootstrap-social/)
 * [Handlebars](http://handlebarsjs.com/)
 * [LESS](http://lesscss.org/)
+* [Bootstrap Themes](https://github.com/BlackrockDigital)
 
 ##TODO:
 * Create a nice README
@@ -73,7 +74,6 @@ a [Sails](http://sailsjs.org) application
 * Maintain ChangeLog going forward.
 * Features for a BOT
 * URL Shortner(Maybe)
-
 
 
 
