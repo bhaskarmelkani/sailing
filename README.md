@@ -59,7 +59,7 @@ a [Sails](http://sailsjs.org) application
 * License
 * Guide to using Socket.io
 * ES6
-* Eslint
+* Eslint(Airbnb)
 * Deployment
   * Heroku
   * AWS
