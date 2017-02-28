@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>
       {{#if title}} 
         {{title}}
@@ -11,6 +12,10 @@
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
 
 
     <!--
@@ -35,7 +40,9 @@
     -->
 
     <!--STYLES-->
+
     <link rel="stylesheet" href="/styles/importer.css">
+
     <!--STYLES END-->
   </head>
 
@@ -94,7 +101,13 @@
     -->
 
     <!--SCRIPTS-->
-    <script src="/js/dependencies/sails.io.js"></script>
+    <!-- jQuery -->
+    <script src="js/lib/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/lib/bootstrap.min.js"></script>
+    <!--Sails-->
+    <script src="/js/lib/sails.io.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
