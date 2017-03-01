@@ -27,6 +27,35 @@ module.exports.models = {
   * See http://sailsjs.org/#!/documentation/concepts/ORM/model-settings.html  *
   *                                                                          *
   ***************************************************************************/
-  // migrate: 'alter'
+   migrate: 'alter',
+
+  /***************************************************************************
+   *                                                                         *
+   * autoUpdatedAt                                                           *
+   *                                                                         *
+   * If set to false, this disables the automatic definition of an updatedAt *
+   * attribute in your model. By default, updatedAt is an attribute which    *
+   * will be automatically set with the current (timezone-agnostic)          *
+   * timestamp every time a record is updated. If set to a string,           *
+   * that string will be used as the custom field/column name for the        *
+   * updatedAt attribute.                                                    *
+   *                                                                          *
+   ***************************************************************************/
+
+
+   autoUpdatedAt: true,
+
+  /***************************************************************************
+   *                                                                         *
+   * autoCreatedAt                                                           *
+   *                                                                         *
+   * If set to false, this disables the automatic definition of a createdAt  *
+   * attribute in your model. By default, createdAt is an attribute which    *
+   * will be automatically set when a record is created with the current     *
+   * (timezone-agnostic) timestamp. If set to a string, that string will     *
+   * be used as the custom field/column name for the createdAt attribute     *
+   *                                                                         *
+   ***************************************************************************/
+   autoCreatedAt: true
 
 };

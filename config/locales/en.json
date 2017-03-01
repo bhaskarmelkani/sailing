@@ -1,4 +1,14 @@
 {
-	"Welcome": "Welcome",
-	"A brand new app.": "A brand new app."
+  "api-200": "Success",
+	"api-400": "Bad Request.",
+	"api-403": "You are not permitted to perform this action.",
+	"api-500": "Something went wrong, Please try in some time.",
+
+	"api-403-key": "Pleave provide a valid api key(api-key)",
+
+  "api-400-auth-format": "Format is Authorization: Bearer [token]",
+  "api-400-auth-no-header": "No Authorization header was found",
+
+  "api-400-atoken-invalid": "Please supply a valid access token.",
+	"api-400-rtoken-invalid": "Please supply a valid refresh token."
 }

@@ -27,6 +27,16 @@ module.exports.policies = {
   ***************************************************************************/
 
   // '*': true,
+  '*': ['locale'],
+
+  // Add isAuthenticated policy to every controller
+  //'*': ['locale', 'isAuthenticated'],
+  // Then whitelist controllers that dont need isAuthenticated policy
+  // 'ControllerWithNoAuth': ['locale'],
+
+
+  // Assign specific policies to controllers
+  // 'ControllerName': ['locale', 'isAuthenticated'],
 
   /***************************************************************************
   *                                                                          *

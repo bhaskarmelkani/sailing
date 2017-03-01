@@ -18,6 +18,7 @@ a [Sails](http://sailsjs.org) application
 * Local Authentication using Email and Password
 * OAuth 1.0a Authentication via Twitter
 * OAuth 2.0 Authentication via Facebook, Google, GitHub, LinkedIn, Instagram
+* JWT Token
 * Node.js clusters support
 * Bootstrap Extra Themes
 * Contact Form (powered by Mailgun, Sendgrid or Mandrill)
