@@ -13,7 +13,15 @@ a [Sails](http://sailsjs.org) application
 * [LESS](http://lesscss.org/)
 * [Bootstrap Themes](https://github.com/BlackrockDigital)
 
-##TODO:
+
+
+
+
+##TODO: Next, Create user model and add all logins. (Local and Oauth)
+
+
+
+##TODO(Backlog):
 * Create a nice README
 * Local Authentication using Email and Password
 * OAuth 1.0a Authentication via Twitter
